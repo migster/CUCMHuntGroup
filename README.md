@@ -4,7 +4,9 @@ It should work right out of the box with the DevNet CUCM 12.0 sandbox since it i
 
 File descriptions: 
 getphone.py: Get the device (phone) status. This is based on device name and we are looking for "BOTUSER011" which is one of the pre-populated Android devices.
+
 huntlogin.py:  Login to the hunt group. The key identifier is the uuid gathered from the above step and setting hlogStatus to On 
+
 huntlogout.py:  Logout of the hunt group. The key identifier is the uuid gathered from the above step and setting hlogStatus to Off
 
 
